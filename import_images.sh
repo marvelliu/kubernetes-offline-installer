@@ -19,9 +19,8 @@ gzip -dkc ${IMG_DIR}/pause.tar.gz |docker load
 gzip -dkc ${IMG_DIR}/etcd.tar.gz |docker load
 gzip -dkc ${IMG_DIR}/coredns.tar.gz |docker load
 
-while read REPOSITORY TAG IMAGE_ID
-do
-        echo "== Tagging $REPOSITORY $TAG $IMAGE_ID =="
-        docker tag "$IMAGE_ID" "$REPOSITORY:$TAG"
-done < ${IMG_DIR}/images.list
-
+#while read REPOSITORY TAG IMAGE_ID
+#do
+#        echo "== Tagging $REPOSITORY $TAG $IMAGE_ID =="
+#        docker tag "$IMAGE_ID" "$REPOSITORY:$TAG"
+#done < ${IMG_DIR}/images.list

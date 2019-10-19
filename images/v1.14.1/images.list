@@ -1,0 +1,15 @@
+k8s.gcr.io/kube-proxy	v1.16.2	8454cbe08dc9
+k8s.gcr.io/kube-scheduler	v1.16.2	ebac1ae204a2
+k8s.gcr.io/kube-controller-manager	v1.16.2	6e4bffa46d70
+k8s.gcr.io/kube-apiserver	v1.16.2	c2c9a0406787
+k8s.gcr.io/etcd	3.3.15-0	b2756210eeab
+k8s.gcr.io/coredns	1.6.2	bf261d157914
+k8s.gcr.io/kube-proxy	v1.14.1	20a2d7035165
+k8s.gcr.io/kube-apiserver	v1.14.1	cfaa4ad74c37
+k8s.gcr.io/kube-scheduler	v1.14.1	8931473d5bdb
+k8s.gcr.io/kube-controller-manager	v1.14.1	efb3887b411d
+quay.io/coreos/flannel	v0.11.0-amd64	ff281650a721
+k8s.gcr.io/coredns	1.3.1	eb516548c180
+k8s.gcr.io/etcd	3.3.10	2c4adeb21b4f
+k8s.gcr.io/pause-amd64	3.1	da86e6ba6ca1
+k8s.gcr.io/pause	3.1	da86e6ba6ca1

@@ -1,6 +1,8 @@
 #!/bin/bash
 
-./prepare.sh
+KUBE_VER=v1.16.2
+
+./prepare.sh ${KUBE_VER}
 
 #TODO
 # after install master, it will show something like as below, just copy it and run at slave node.
